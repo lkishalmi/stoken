@@ -55,7 +55,8 @@ dist_icon_DATA		= gui/stoken-gui.png
 
 desktopdir		= $(datadir)/applications
 dist_desktop_DATA	= gui/stoken-gui.desktop \
-			  gui/stoken-gui-small.desktop
+			  gui/stoken-gui-small.desktop \
+                          gui/stoken.gui.desktop
 
 uidir			= $(datadir)/stoken
 ui_DATA			= gui/tokencode-small.ui \
